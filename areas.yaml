@@ -1,0 +1,1262 @@
+areas:
+  - name: サンドリア
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: 東ロンフォール
+        weight: 1
+        transportation: walk
+      - name: 西ロンフォール
+        weight: 1
+        transportation: walk
+      - name: ドラギーユ城
+        weight: 1
+        transportation: walk
+      - name: ジュノ
+        weight: 100
+        transportation: airship
+  - name: バストゥーク
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: ツェールン鉱山
+        weight: 1
+        transportation: walk
+      - name: 北グスタベルグ
+        weight: 1
+        transportation: walk
+      - name: 大工房
+        weight: 1
+        transportation: walk
+      - name: ジュノ
+        weight: 100
+        transportation: airship
+  - name: ウィンダス
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: 東サルタバルタ
+        weight: 1
+        transportation: walk
+      - name: 西サルタバルタ
+        weight: 1
+        transportation: walk
+      - name: 天の塔
+        weight: 1
+        transportation: walk
+      - name: ジュノ
+        weight: 100
+        transportation: airship
+  - name: ジュノ
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: 大公宮
+        weight: 1
+        transportation: walk
+      - name: バタリア丘陵
+        weight: 1
+        transportation: walk
+      - name: ロランベリー耕地
+        weight: 1
+        transportation: walk
+      - name: クフィム島
+        weight: 1
+        transportation: walk
+      - name: ソロムグ原野
+        weight: 1
+        transportation: walk
+      - name: サンドリア
+        weight: 100
+        transportation: airship
+      - name: バストゥーク
+        weight: 100
+        transportation: airship
+      - name: ウィンダス
+        weight: 100
+        transportation: airship
+      - name: カザム
+        weight: 100
+        transportation: airship
+  - name: セルビナ
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: バルクルム砂丘
+        weight: 1
+        transportation: walk
+      - name: マウラ
+        weight: 50
+        transportation: ship
+  - name: マウラ
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: ブブリム半島
+        weight: 1
+        transportation: walk
+      - name: セルビナ
+        weight: 50
+        transportation: ship
+      - name: アトルガン白門
+        weight: 50
+        transportation: ship
+  - name: カザム
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: ユタンガ大森林
+        weight: 1
+        transportation: walk
+      - name: ジュノ
+        weight: 50
+        transportation: ship
+  - name: ラバオ
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: 西アルテパ砂漠
+        weight: 1
+        transportation: walk
+  - name: ノーグ
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: 海蛇の岩窟
+        weight: 1
+        transportation: walk
+  - name: アルザビ
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: アトルガン白門
+        weight: 1
+        transportation: walk
+      - name: バフラウ段丘
+        weight: 1
+        transportation: walk
+      - name: ワジャーム樹林
+        weight: 1
+        transportation: walk
+  - name: アトルガン白門
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: アルザビ
+        weight: 1
+        transportation: walk
+      - name: バフラウ段丘
+        weight: 1
+        transportation: walk
+      - name: ワジャーム樹林
+        weight: 1
+        transportation: walk
+      - name: ナシュモ
+        weight: 50
+        transportation: ship
+      - name: マウラ
+        weight: 50
+        transportation: ship
+  - name: ナシュモ
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: アトルガン白門
+        weight: 50
+        transportation: ship
+      - name: カダーバの浮沼
+        weight: 1
+        transportation: walk
+  - name: 西ロンフォール
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ゲルスバ野営陣
+        weight: 1
+        transportation: walk
+      - name: ボストーニュ監獄
+        weight: 1
+        transportation: walk
+      - name: 東ロンフォール
+        weight: 1
+        transportation: walk
+      - name: ラテーヌ高原
+        weight: 1
+        transportation: walk
+  - name: 東ロンフォール
+    survival_guide: False
+    home_point: False
+    distination:
+      - name: ラングモント峠
+        weight: 1
+        transportation: walk
+      - name: 龍王ランペールの墓
+        weight: 1
+        transportation: walk
+      - name: 西ロンフォール
+        weight: 1
+        transportation: walk
+  - name: ゲルスバ野営陣
+    survival_guide: False
+    home_point: False
+    distination:
+      - name: 西ロンフォール
+        weight: 1
+        transportation: walk
+      - name: ゲルスバ砦
+        weight: 1
+        transportation: walk
+      - name: ユグホトの岩屋
+        weight: 1
+        transportation: walk
+  - name: ゲルスバ砦
+    survival_guide: False
+    home_point: False
+    distination:
+      - name: ゲルスバ野営陣
+        weight: 1
+        transportation: walk
+      - name: ユグホトの岩屋
+        weight: 1
+        transportation: walk
+  - name: ユグホトの岩屋
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: ゲルスバ野営陣
+        weight: 1
+        transportation: walk
+      - name: ゲルスバ砦
+        weight: 1
+        transportation: walk
+      - name: ホルレーの岩峰
+        weight: 1
+        transportation: walk
+  - name: 龍王ランペールの墓
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: 東ロンフォール
+        weight: 1
+        transportation: walk
+      - name: ジャグナー森林
+        weight: 1
+        transportation: walk
+  - name: ボストーニュ監獄
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: 西ロンフォール
+        weight: 1
+        transportation: walk
+      - name: ドラギーユ城
+        weight: 1
+        transportation: walk
+  - name: 北グスタベルグ
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: バストゥーク
+        weight: 1
+        transportation: walk
+      - name: 南グスタベルグ
+        weight: 1
+        transportation: walk
+      - name: パルブロ鉱山
+        weight: 1
+        transportation: walk
+      - name: ムバルポロス旧市街
+        weight: 1
+        transportation: walk
+      - name: ダングルフの涸れ谷
+        weight: 1
+        transportation: walk
+      - name: コンシュタット高地
+        weight: 1
+        transportation: walk
+  - name: 南グスタベルグ
+    survival_guide: False
+    home_point: False
+    distination:
+      - name: 北グスタベルグ
+        weight: 1
+        transportation: walk
+      - name: バストゥーク
+        weight: 1
+        transportation: walk
+      - name: ダングルフの涸れ谷
+        weight: 1
+        transportation: walk
+  - name: ツェールン鉱山
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: バストゥーク鉱山
+        weight: 1
+        transportation: walk
+      - name: パルブロ鉱山
+        weight: 1
+        transportation: walk
+      - name: コロロカの洞門
+        weight: 1
+        transportation: walk
+  - name: パルブロ鉱山
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: 北グスタベルグ
+        weight: 1
+        transportation: walk
+      - name: ツェールン鉱山
+        weight: 1
+        transportation: walk
+      - name: ワーレンの祠
+        weight: 1
+        transportation: walk
+  - name: ダングルフの涸れ谷
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: 北グスタベルグ
+        weight: 1
+        transportation: walk
+      - name: 南グスタベルグ
+        weight: 1
+        transportation: walk
+  - name: コロロカの洞門
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: 東アルテパ砂漠
+        weight: 1
+        transportation: walk
+      - name: 西アルテパ砂漠
+        weight: 1
+        transportation: walk
+      - name: ツェールン鉱山
+        weight: 1
+        transportation: walk
+  - name: 東サルタバルタ
+    survival_guide: False
+    home_point: False
+    distination:
+      - name: ウィンダス
+        weight: 1
+        transportation: walk
+      - name: 西サルタバルタ
+        weight: 1
+        transportation: walk
+      - name: タロンギ大峡谷
+        weight: 1
+        transportation: walk
+  - name: 西サルタバルタ
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ウィンダス
+        weight: 1
+        transportation: walk
+      - name: 東サルタバルタ
+        weight: 1
+        transportation: walk
+      - name: ギデウス
+        weight: 1
+        transportation: walk
+  - name: 内ホルトト遺跡
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: 東サルタバルタ
+        weight: 1
+        transportation: walk
+      - name: 西サルタバルタ
+        weight: 1
+        transportation: walk
+      - name: トライマライ水路
+        weight: 1
+        transportation: walk
+  - name: 外ホルトト遺跡(東の魔法塔)
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: 東サルタバルタ
+        weight: 1
+        transportation: walk
+  - name: 外ホルトト遺跡(北西の魔法塔)
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: 西サルタバルタ
+        weight: 1
+        transportation: walk
+  - name: 外ホルトト遺跡(南西の魔法塔)
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: 西サルタバルタ
+        weight: 1
+        transportation: walk
+  - name: 外ホルトト遺跡(北の魔法塔)
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: 東サルタバルタ
+        weight: 1
+        transportation: walk
+  - name: ギデアス
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: 西サルタバルタ
+        weight: 1
+        transportation: walk
+      - name: バルガの舞台
+        weight: 1
+        transportation: walk
+  - name: トライマライ水路
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: ウィンダス
+        weight: 1
+        transportation: walk
+      - name: 内ホルトト遺跡
+        weight: 1
+        transportation: walk
+  - name: ラテーヌ高原
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: 西ロンフォール
+        weight: 1
+        transportation: walk
+      - name: ホラ
+        weight: 1
+        transportation: walk
+      - name: ジャグナー森林
+        weight: 1
+        transportation: walk
+      - name: バルクルム砂丘
+        weight: 1
+        transportation: walk
+  - name: コンシュタット高地
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: パシュハウ沼
+        weight: 1
+        transportation: walk
+      - name: デム
+        weight: 1
+        transportation: walk
+      - name: グスゲン鉱山
+        weight: 1
+        transportation: walk
+      - name: バルクルム砂丘
+        weight: 1
+        transportation: walk
+      - name: 北グスタベルグ
+        weight: 1
+        transportation: walk
+  - name: オルデール鍾乳洞
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ラテーヌ高原
+        weight: 1
+        transportation: walk
+  - name: グスゲン鉱山
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ムバルポロス旧市街
+        weight: 1
+        transportation: walk
+      - name: コンシュタット高地
+        weight: 1
+        transportation: walk
+  - name: バルクルム砂丘
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ラテーヌ高原
+        weight: 1
+        transportation: walk
+      - name: コンシュタット高地
+        weight: 1
+        transportation: walk
+      - name: セルビナ
+        weight: 1
+        transportation: walk
+      - name: ルフェーゼ野
+        weight: 1
+        transportation: walk
+      - name: グスタフの洞門
+        weight: 1
+        transportation: walk
+  - name: タロンギ大峡谷
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: メリファト山地
+        weight: 1
+        transportation: walk
+      - name: 東サルタバルタ
+        weight: 1
+        transportation: walk
+      - name: ブブリム半島
+        weight: 1
+        transportation: walk
+      - name: シャクラミの地下迷宮
+        weight: 1
+        transportation: walk
+      - name: メア
+        weight: 1
+        transportation: walk
+  - name: ブブリム半島
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: タロンギ大峡谷
+        weight: 1
+        transportation: walk
+      - name: マウラ
+        weight: 1
+        transportation: walk
+      - name: ビビキー湾
+        weight: 1
+        transportation: walk
+      - name: シャクラミの地下迷宮
+        weight: 1
+        transportation: walk
+      - name: オンゾゾの迷路
+        weight: 1
+        transportation: walk
+  - name: シャクラミの地下迷宮
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: アットワ地溝
+        weight: 1
+        transportation: walk
+      - name: タロンギ大峡谷
+        weight: 1
+        transportation: walk
+      - name: ブブリム半島
+        weight: 1
+        transportation: walk
+  - name: オンゾゾの迷路
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ブブリム半島
+        weight: 1
+        transportation: walk
+  - name: ビビキー湾
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ブブリム半島
+        weight: 1
+        transportation: walk
+  - name: ジャグナー森林
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: バタリア丘陵
+        weight: 1
+        transportation: walk
+      - name: ギルド桟橋
+        weight: 1
+        transportation: walk
+      - name: ダボイ
+        weight: 1
+        transportation: walk
+      - name: ラテーヌ高原
+        weight: 1
+        transportation: walk
+      - name: 龍王ランペールの墓
+        weight: 1
+        transportation: walk
+  - name: ギルド桟橋
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ジャグナー森林
+        weight: 1
+        transportation: walk
+      - name: サンドリア
+        weight: 1
+        transportation: walk
+  - name: バタリア丘陵
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ジュノ
+        weight: 1
+        transportation: walk
+      - name: ジャグナー森林
+        weight: 1
+        transportation: walk
+      - name: ボスディン氷河
+        weight: 1
+        transportation: walk
+      - name: ロランベリー耕地
+        weight: 1
+        transportation: walk
+  - name: ダボイ
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: 修道窟
+        weight: 1
+        transportation: walk
+      - name: ジャグナー森林
+        weight: 1
+        transportation: walk
+  - name: 修道窟
+    survival_guide: False
+    home_point: False
+    distination:
+      - name: ダボイ
+        weight: 1
+        transportation: walk
+  - name: エルディーム古墳
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: バタリア丘陵
+        weight: 1
+        transportation: walk
+  - name: パシュハウ沼
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ロランベリー耕地
+        weight: 1
+        transportation: walk
+      - name: ベドー
+        weight: 1
+        transportation: walk
+  - name: ロランベリー耕地
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: パシュハウ沼
+        weight: 1
+        transportation: walk
+      - name: ソロムグ原野
+        weight: 1
+        transportation: walk
+      - name: ジュノ
+        weight: 1
+        transportation: walk
+      - name: バタリア丘陵
+        weight: 1
+        transportation: walk
+      - name: クロウラーの巣
+        weight: 1
+        transportation: walk
+  - name: ベドー
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: パシュハウ沼
+        weight: 1
+        transportation: walk
+      - name: クゥルンの大伽藍
+        weight: 1
+        transportation: walk
+  - name: クゥルンの大伽藍
+    survival_guide: False
+    home_point: False
+    distination:
+      - name: ベドー
+        weight: 1
+        transportation: walk
+  - name: クロウラーの巣
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ロランベリー耕地
+        weight: 1
+        transportation: walk
+  - name: メリファト山地
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ソロムグ原野
+        weight: 1
+        transportation: walk
+      - name: タロンギ大峡谷
+        weight: 1
+        transportation: walk
+      - name: オズトロヤ城
+        weight: 1
+        transportation: walk
+      - name: 聖地ジ・タ
+        weight: 1
+        transportation: walk
+  - name: ソロムグ原野
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ジュノ
+        weight: 1
+        transportation: walk
+      - name: メリファト山地
+        weight: 1
+        transportation: walk
+      - name: ガルレージュ要塞
+        weight: 1
+        transportation: walk
+      - name: ロランベリー耕地
+        weight: 1
+        transportation: walk
+  - name: アットワ地溝
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: 千骸谷
+        weight: 1
+        transportation: walk
+      - name: シャクラミの地下迷宮
+        weight: 1
+        transportation: walk
+  - name: オズトロヤ城
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: メリファト山地
+        weight: 1
+        transportation: walk
+  - name: ガルレージュ要塞
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ソロムグ原野
+        weight: 1
+        transportation: walk
+  - name: ボスディン氷河
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: バタリア丘陵
+        weight: 1
+        transportation: walk
+      - name: フェ・イン
+        weight: 1
+        transportation: walk
+      - name: ザルカバード
+        weight: 1
+        transportation: walk
+      - name: ラングモント峠
+        weight: 1
+        transportation: walk
+      - name: ソ・ジヤ
+        weight: 1
+        transportation: walk
+  - name: フェ・イン
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: ク・ビアの闘技場
+        weight: 1
+        transportation: walk
+      - name: ボスディン氷河
+        weight: 1
+        transportation: walk
+  - name: ラングモント峠
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ボスディン氷河
+        weight: 1
+        transportation: walk
+      - name: 東ロンフォール
+        weight: 1
+        transportation: walk
+  - name: ソ・ジヤ
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: ボスディン氷河
+        weight: 1
+        transportation: walk
+  - name: ザルカバード
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ボスディン氷河
+        weight: 1
+        transportation: walk
+      - name: ウルガラン山脈
+        weight: 1
+        transportation: walk
+      - name: ズヴァール城
+        weight: 1
+        transportation: walk
+  - name: ズヴァール城
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: ザルカバード
+        weight: 1
+        transportation: walk
+      - name: ズヴァール城
+        weight: 1
+        transportation: walk
+  - name: ウルガラン山脈
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: ザルカバード
+        weight: 1
+        transportation: walk
+  - name: クフィム島
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: エスカ-ジ・タ
+        weight: 1
+        transportation: walk
+      - name: ジュノ
+        weight: 1
+        transportation: walk
+      - name: デルクフの塔
+        weight: 1
+        transportation: walk
+      - name: ベヒーモスの縄張り
+        weight: 1
+        transportation: walk
+      - name: ミザレオ海岸
+        weight: 1
+        transportation: walk
+  - name: ベヒーモスの縄張り
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: クフィム島
+        weight: 1
+        transportation: walk
+  - name: デルクフの塔
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: クフィム島
+        weight: 1
+        transportation: walk
+  - name: 聖地ジ・タ
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: ロ・メーヴ
+        weight: 1
+        transportation: walk
+      - name: メリファト山地
+        weight: 1
+        transportation: walk
+      - name: 龍のねぐら
+        weight: 1
+        transportation: walk
+      - name: ボヤーダ樹
+        weight: 1
+        transportation: walk
+  - name: ボヤーダ樹
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: 聖地ジ・タ
+        weight: 1
+        transportation: walk
+      - name: 龍のねぐら
+        weight: 1
+        transportation: walk
+  - name: 龍のねぐら
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: 聖地ジ・タ
+        weight: 1
+        transportation: walk
+      - name: ボヤーダ樹
+        weight: 1
+        transportation: walk
+  - name: ロ・メーヴ
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: 聖地ジ・タ
+        weight: 1
+        transportation: walk
+      - name: 神々の間
+        weight: 1
+        transportation: walk
+  - name: 神々の間
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: ロ・メーヴ
+        weight: 1
+        transportation: walk
+      - name: ル・オンの庭
+        weight: 1
+        transportation: walk
+  - name: 東アルテパ砂漠
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: コロロカの洞門
+        weight: 1
+        transportation: walk
+      - name: 西アルテパ砂漠
+        weight: 1
+        transportation: walk
+      - name: 流砂洞
+        weight: 1
+        transportation: walk
+  - name: 西アルテパ砂漠
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: クフタルの洞門
+        weight: 1
+        transportation: walk
+      - name: 東アルテパ砂漠
+        weight: 1
+        transportation: walk
+      - name: コロロカの洞門
+        weight: 1
+        transportation: walk
+      - name: ラバオ
+        weight: 1
+        transportation: walk
+      - name: 流砂洞
+        weight: 1
+        transportation: walk
+  - name: 流砂洞
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: 西アルテパ砂漠
+        weight: 1
+        transportation: walk
+      - name: 東アルテパ砂漠
+        weight: 1
+        transportation: walk
+  - name: テリガン岬
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: グスタフの洞門
+        weight: 1
+        transportation: walk
+      - name: クフタルの洞門
+        weight: 1
+        transportation: walk
+      - name: 慟哭の谷
+        weight: 1
+        transportation: walk
+  - name: グスタフの洞門
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: バルクルム丘陵
+        weight: 1
+        transportation: walk
+      - name: テリガン岬
+        weight: 1
+        transportation: walk
+  - name: クフタルの洞門
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: 西アルテパ砂漠
+        weight: 1
+        transportation: walk
+      - name: テリガン岬
+        weight: 1
+        transportation: walk
+  - name: 慟哭の谷
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: テリガン岬
+        weight: 1
+        transportation: walk
+  - name: ユタンガ大森林
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: 海蛇の岩窟
+        weight: 1
+        transportation: walk
+      - name: カザム
+        weight: 1
+        transportation: walk
+      - name: イフリートの釜
+        weight: 1
+        transportation: walk
+      - name: ヨアトル大森林
+        weight: 1
+        transportation: walk
+  - name: 海蛇の岩窟
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ユタンガ大森林
+        weight: 1
+        transportation: walk
+      - name: ノーグ
+        weight: 1
+        transportation: walk
+  - name: ヨアトル大森林
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ユタンガ大森林
+        weight: 1
+        transportation: walk
+      - name: 怨念洞
+        weight: 1
+        transportation: walk
+      - name: イフリートの釜
+        weight: 1
+        transportation: walk
+      - name: ウガレピ寺院
+        weight: 1
+        transportation: walk
+  - name: ウガレピ寺院
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ヨアトル大森林
+        weight: 1
+        transportation: walk
+      - name: 怨念洞
+        weight: 1
+        transportation: walk
+  - name: 怨念洞
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: ウガレピ寺院
+        weight: 1
+        transportation: walk
+      - name: ヨアトル大森林
+        weight: 1
+        transportation: walk
+  - name: イフリートの釜
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: ユタンガ大森林
+        weight: 1
+        transportation: walk
+      - name: ヨアトル大森林
+        weight: 1
+        transportation: walk
+  - name: ル・オンの庭
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: 神々の間
+        weight: 1
+        transportation: walk
+      - name: ラ・ロフの劇場
+        weight: 1
+        transportation: walk
+  - name: ヴェ・ルガノン宮殿
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: ル・オンの庭
+        weight: 1
+        transportation: walk
+  - name: ル・アビタウ神殿
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: ル・オンの庭
+        weight: 1
+        transportation: walk
+  - name: ムバルポロス旧市街
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: グスゲン鉱山
+        weight: 1
+        transportation: walk
+      - name: 北グスタベルグ
+        weight: 1
+        transportation: walk
+      - name: 2716号採石場
+        weight: 1
+        transportation: walk
+  - name: ムバルポロス新市街
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: 2716号採石場
+        weight: 1
+        transportation: walk
+      - name: 北グスタベルグ
+        weight: 1
+        transportation: walk
+  - name: 2716号採石場
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: ムバルポロス新市街
+        weight: 1
+        transportation: walk
+      - name: ムバルポロス新市街
+        weight: 1
+        transportation: walk
+  - name: ルフェーゼ野
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: バルクルム丘陵
+        weight: 1
+        transportation: walk
+      - name: ミザレオ海岸
+        weight: 1
+        transportation: walk
+      - name: タブナジア地下壕
+        weight: 1
+        transportation: walk
+  - name: ミザレオ海岸
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: クフィム島
+        weight: 1
+        transportation: walk
+      - name: エスカ-ル・オン
+        weight: 1
+        transportation: walk
+      - name: タブナジア地下壕
+        weight: 1
+        transportation: walk
+      - name: リヴェーヌ岩塊群
+        weight: 1
+        transportation: walk
+      - name: ルフェーゼ野
+        weight: 1
+        transportation: walk
+      - name: 礼拝堂
+        weight: 1
+        transportation: walk
+  - name: 礼拝堂
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: ミザレオ海岸
+        weight: 1
+        transportation: walk
+  - name: 海獅子の巣窟
+    survival_guide: False
+    home_point: False
+    distination:
+      - name: タブナジア地下壕
+        weight: 1
+        transportation: walk
+      - name: アル・タユ
+        weight: 1
+        transportation: walk
+  - name: タブナジア地下壕
+    survival_guide: True
+    home_point: True
+    distination:
+      - name: ルフェーゼ野
+        weight: 1
+        transportation: walk
+      - name: ミザレオ海岸
+        weight: 1
+        transportation: walk
+      - name: 海獅子の巣窟
+        weight: 1
+        transportation: walk
+      - name: フォミュナ水道
+        weight: 1
+        transportation: walk
+  - name: フォミュナ水道
+    survival_guide: True
+    home_point: False
+    distination:
+      - name: タブナジア地下壕
+        weight: 1
+        transportation: walk
+      - name: ミザレオ海岸
+        weight: 1
+        transportation: walk
+      - name: 海獅子の巣窟
+        weight: 1
+        transportation: walk
+      - name: フォミュナ水道
+        weight: 1
+        transportation: walk
+  - name: リヴェーヌ岩塊群
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: 帝龍の飛泉
+        weight: 1
+        transportation: walk
+      - name: ミザレオ海岸
+        weight: 1
+        transportation: walk
+  - name: アル・タユ
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: ラテーヌ高原
+        weight: 1
+        transportation: walk
+      - name: テメナス
+        weight: 1
+        transportation: walk
+      - name: タロンギ大峡谷
+        weight: 1
+        transportation: walk
+      - name: 海獅子の巣窟
+        weight: 1
+        transportation: walk
+      - name: フ・ゾイの王宮
+        weight: 1
+        transportation: walk
+      - name: コンシュタット高地
+        weight: 1
+        transportation: walk
+  - name: フ・ゾイの王宮
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: アル・タユ
+        weight: 1
+        transportation: walk
+      - name: ル・メトの園
+        weight: 1
+        transportation: walk
+  - name: ル・メトの園
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: フ・ゾイの王宮
+        weight: 1
+        transportation: walk
+  - name: エスカ-ジ・タ
+    survival_guide: False
+    home_point: False
+    distination:
+      - name: クフィム島
+        weight: 1
+        transportation: walk
+  - name: エスカ-ル・オン
+    survival_guide: False
+    home_point: False
+    distination:
+      - name: ミザレオ海岸
+        weight: 1
+        transportation: walk
