@@ -78,6 +78,13 @@ areas:
       - name: カザム
         weight: 100
         transportation: airship
+  - name: カザム
+    survival_guide: False
+    home_point: True
+    distination:
+      - name: ジュノ
+        weight: 100
+        transportation: airship
   - name: セルビナ
     survival_guide: False
     home_point: True
@@ -359,7 +366,7 @@ areas:
       - name: 東サルタバルタ
         weight: 1
         transportation: walk
-      - name: ギデウス
+      - name: ギデアス
         weight: 1
         transportation: walk
   - name: 内ホルトト遺跡
@@ -602,6 +609,9 @@ areas:
         weight: 1
         transportation: walk
       - name: ロランベリー耕地
+        weight: 1
+        transportation: walk
+      - name: エルディーム古墳
         weight: 1
         transportation: walk
   - name: ダボイ
