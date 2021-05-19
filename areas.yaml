@@ -317,7 +317,7 @@ areas:
       - name: ツェールン鉱山
         weight: 1
         transportation: walk
-      - name: ワーレンの祠
+      - name: ワールンの祠
         weight: 1
         transportation: walk
   - name: ダングルフの涸れ谷
@@ -971,7 +971,7 @@ areas:
     survival_guide: True
     home_point: False
     destination:
-      - name: バルクルム丘陵
+      - name: バルクルム砂丘
         weight: 1
         transportation: walk
       - name: テリガン岬
