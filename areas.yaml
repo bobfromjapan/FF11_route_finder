@@ -1127,7 +1127,7 @@ areas:
     survival_guide: True
     home_point: False
     destination:
-      - name: バルクルム丘陵
+      - name: バルクルム砂丘
         weight: 1
         transportation: walk
       - name: ミザレオ海岸
