@@ -28,4 +28,6 @@ dest:バストゥーク
 by walk? (if you want to quit, type "q")q
 ```
 
+another project: https://github.com/bobfromjapan/ff11_route_finder_online
+
 more info(Japanese): https://hashicco.hatenablog.com/entry/2021/03/23/212907
